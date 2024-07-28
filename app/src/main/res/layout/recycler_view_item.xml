@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="16dp"
+    android:padding="10dp"
+    android:focusable="true">
+
+    <!--    Name of BoardGame   -->
+    <TextView
+        android:id="@+id/nameOfGame"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:padding="16dp"
+        android:text="CATAN"
+        android:textStyle="bold" />
+
+
+    <!--    Released Year   -->
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/nameOfGame"
+        android:padding="16dp"
+        android:text="1990"
+        android:textStyle="bold" />
+
+    <!--    Maximum number of players   -->
+    <TextView
+        android:id="@+id/maxPlayers"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/year"
+        android:padding="16dp"
+        android:text="Max 6" />
+
+    <!--    BoardGame price   -->
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/maxPlayers"
+        android:padding="16dp"
+        android:text="30 $" />
+
+
+    <!--    Horizontal Line     -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/year"
+        android:layout_marginTop="7dp"
+        android:background="@color/blue" />
+
+    <!--    Vertical Line       -->
+<!--    <View-->
+<!--        android:layout_width="1dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginStart="4dp"-->
+<!--        android:layout_marginEnd="4dp"-->
+<!--        android:layout_toStartOf="@+id/year"-->
+<!--        android:layout_toEndOf="@+id/nameOfGame"-->
+<!--        android:background="@color/white" />-->
+</RelativeLayout>

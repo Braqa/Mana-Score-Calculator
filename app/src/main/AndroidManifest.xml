@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pleuratpula.manascore">
+
+    <!-- Permissions for API -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Permissions for Vibration -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivityBoardGames" />
+        <activity
+            android:name=".Activity_results"
+            android:parentActivityName=".Activity_StartMenu" />
+        <activity
+            android:name=".Act_no_players"
+            android:parentActivityName=".Activity_StartMenu" />
+        <activity
+            android:name=".Activity_players_names"
+            android:parentActivityName=".Act_no_players" />
+        <activity
+            android:name=".Activity_StartMenu"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

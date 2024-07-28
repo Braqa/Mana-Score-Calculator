@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Mana Score</string>
+    <!--    Deklarimi i stringjeve  te ndryshme-->
+    <string name="logo">Logo</string>
+    <string name="name">Mana Score</string>
+    <string name="save">SAVE</string>
+    <string name="dots">3dots</string>
+    <string name="newGame">NEW GAME</string>
+    <string name="enter">Sip me human…</string>
+    <string name="write">WRITE YOUR NAMES</string>
+    <string name="saveResult">Save Result</string>
+    <string name="messageAfterSave">Game Results Saved Successfully</string>
+    <string name="noPlayers">MAX</string>
+    <string name="savedGames">SAVED GAMES</string>
+    <string name="OK">OK</string>
+    <string name="conDesc"> </string>
+    <string name="na">N/A</string>
+    <string name="textView">Text View</string>
+
+    <!--    Number of players   -->
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="more">More</string>
+
+    <!--    Player Names     -->
+    <string name="player1">Braqa</string>
+    <string name="player2">Denki</string>
+    <string name="player3">Toon</string>
+    <string name="player4">WhaleLord</string>
+    <string name="player5">Player 5</string>
+    <string name="player6">Player 6</string>
+    <string name="playerName">PLAYER NAME</string>
+
+    <!--    Minus Buttons     -->
+    <string name="minus1">-1</string>
+    <string name="minus5">-5</string>
+    <string name="minus10">-10</string>
+    <string name="minus20">-20</string>
+    <string name="minus">-</string>
+
+    <!--    Plus Buttons     -->
+    <string name="plus1">+1</string>
+    <string name="plus5">+5</string>
+    <string name="plus10">+10</string>
+    <string name="plus20">+20</string>
+    <string name="plus">+</string>
+
+    <!--    API Views   -->
+    <string name="games">GAMES</string>
+    <string name="year">YEAR</string>
+    <string name="no_players">NO</string>
+    <string name="price">PRICE</string>
+    <string name="top_games">Top Games</string>
+
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ActivityBoardGames">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/section_label"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#108DF1"
+            android:fontFamily="@font/classicness"
+            android:lineSpacingExtra="8sp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/games"
+            android:textAlignment="center"
+            android:textColor="#F4DD0B"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productionYear"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/section_label"
+            android:background="#108DF1"
+            android:fontFamily="@font/classicness"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/year"
+            android:textAlignment="center"
+            android:textColor="#F4DD0B"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/maximumPlayers"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/productionYear"
+            android:background="#108DF1"
+            android:fontFamily="@font/classicness"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/no_players"
+            android:textAlignment="center"
+            android:textColor="#F4DD0B"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/priceOfGame"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:layout_toEndOf="@id/maximumPlayers"
+            android:background="#108DF1"
+            android:fontFamily="@font/classicness"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/price"
+            android:textAlignment="center"
+            android:textColor="#F4DD0B"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recViewAPI"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

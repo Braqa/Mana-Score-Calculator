@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_results"
+    android:orientation="vertical"
+    android:id="@+id/resultsParentLayout"
+    android:background="@drawable/manabluebackground">
+
+    <TextView
+        android:id="@+id/AlertTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/messageAfterSave"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/playerLayoutStack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSaveResult"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/saveResult"
+                android:background="@color/blue"
+                android:fontFamily="@font/classicness"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
